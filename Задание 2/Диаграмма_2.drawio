@@ -1,0 +1,113 @@
+<mxfile host="Electron">
+  <diagram name="Страница-1" id="79IA0IVx-cq6QiChZ4My">
+    <mxGraphModel dx="1414" dy="889" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4Mh79fvbjCwzw591XXt8-3" edge="1" parent="1" source="4Mh79fvbjCwzw591XXt8-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="4Mh79fvbjCwzw591XXt8-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4Mh79fvbjCwzw591XXt8-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Начало&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="180" x="310" as="geometry" />
+        </mxCell>
+        <mxCell id="4Mh79fvbjCwzw591XXt8-5" edge="1" parent="1" source="4Mh79fvbjCwzw591XXt8-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="4Mh79fvbjCwzw591XXt8-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4Mh79fvbjCwzw591XXt8-2" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="Ввод: text" vertex="1">
+          <mxGeometry height="120" width="180" x="310" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="4Mh79fvbjCwzw591XXt8-7" edge="1" parent="1" source="4Mh79fvbjCwzw591XXt8-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="4Mh79fvbjCwzw591XXt8-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4Mh79fvbjCwzw591XXt8-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="words = text.lower().split()" vertex="1">
+          <mxGeometry height="120" width="180" x="310" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="4Mh79fvbjCwzw591XXt8-9" edge="1" parent="1" source="4Mh79fvbjCwzw591XXt8-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="4Mh79fvbjCwzw591XXt8-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4Mh79fvbjCwzw591XXt8-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="word_counts = {}" vertex="1">
+          <mxGeometry height="120" width="180" x="310" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="4Mh79fvbjCwzw591XXt8-11" edge="1" parent="1" source="4Mh79fvbjCwzw591XXt8-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="4Mh79fvbjCwzw591XXt8-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4Mh79fvbjCwzw591XXt8-21" edge="1" parent="1" source="4Mh79fvbjCwzw591XXt8-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="4Mh79fvbjCwzw591XXt8-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4Mh79fvbjCwzw591XXt8-8" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="Для каждого word в words" vertex="1">
+          <mxGeometry height="120" width="180" x="310" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="4Mh79fvbjCwzw591XXt8-14" edge="1" parent="1" source="4Mh79fvbjCwzw591XXt8-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="4Mh79fvbjCwzw591XXt8-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="750" />
+            </Array>
+            <mxPoint x="210" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4Mh79fvbjCwzw591XXt8-15" edge="1" parent="1" source="4Mh79fvbjCwzw591XXt8-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="4Mh79fvbjCwzw591XXt8-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="750" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4Mh79fvbjCwzw591XXt8-10" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="word уже есть в word_counts?" vertex="1">
+          <mxGeometry height="120" width="180" x="310" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="4Mh79fvbjCwzw591XXt8-19" edge="1" parent="1" source="4Mh79fvbjCwzw591XXt8-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="1000" />
+              <mxPoint x="80" y="1000" />
+              <mxPoint x="80" y="520" />
+            </Array>
+            <mxPoint x="400" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4Mh79fvbjCwzw591XXt8-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="word_counts[word] += 1" vertex="1">
+          <mxGeometry height="120" width="180" x="130" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="4Mh79fvbjCwzw591XXt8-18" edge="1" parent="1" source="4Mh79fvbjCwzw591XXt8-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="1000" />
+              <mxPoint x="80" y="1000" />
+              <mxPoint x="80" y="520" />
+            </Array>
+            <mxPoint x="400" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4Mh79fvbjCwzw591XXt8-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="word_counts[word] = 1" vertex="1">
+          <mxGeometry height="120" width="180" x="490" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="4Mh79fvbjCwzw591XXt8-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;Да&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="240" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="4Mh79fvbjCwzw591XXt8-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;Нет&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="510" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="4Mh79fvbjCwzw591XXt8-23" edge="1" parent="1" source="4Mh79fvbjCwzw591XXt8-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="4Mh79fvbjCwzw591XXt8-22" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4Mh79fvbjCwzw591XXt8-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="sorted_words = sorted(word_counts.items(), key=lambda x: x[1], reverse=True)[:5]" vertex="1">
+          <mxGeometry height="120" width="180" x="720" y="930" as="geometry" />
+        </mxCell>
+        <mxCell id="4Mh79fvbjCwzw591XXt8-25" edge="1" parent="1" source="4Mh79fvbjCwzw591XXt8-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="4Mh79fvbjCwzw591XXt8-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="810" y="1240" />
+              <mxPoint x="400" y="1240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4Mh79fvbjCwzw591XXt8-22" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="Вывод: sorted_words" vertex="1">
+          <mxGeometry height="120" width="180" x="720" y="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="4Mh79fvbjCwzw591XXt8-24" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="&lt;div&gt;Конец&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="180" x="310" y="1270" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
