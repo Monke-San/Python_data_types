@@ -1,0 +1,11 @@
+students = [
+    {"name": "Alice", "grades": [5, 4, 5, 3]},
+    {"name": "Bob", "grades": [4, 4, 4, 5]},
+    {"name": "Charlie", "grades":}
+]
+
+average_grades = {s["name"]: sum(s["grades"]) / len(s["grades"]) for s in students}
+best_student = max(average_grades, key=average_grades.get)
+
+print(average_grades)
+print(best_student)

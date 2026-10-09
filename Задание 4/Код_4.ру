@@ -1,0 +1,15 @@
+items = [
+    ("apple", "fruit"),
+    ("banana", "fruit"),
+    ("carrot", "vegetable"),
+    ("tomato", "vegetable"),
+    ("milk", "dairy")
+]
+
+grouped = {}
+for item, category in items:
+    if category not in grouped:
+        grouped[category] = []
+    grouped[category].append(item)
+
+print(grouped)

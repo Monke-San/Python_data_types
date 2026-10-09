@@ -1,0 +1,10 @@
+list1 = [{"id": 1, "name": "Alice"}, {"id": 2, "name": "Bob"}]
+list2 = [{"id": 2, "name": "Bob"}, {"id": 3, "name": "Charlie"}]
+
+intersection = [item for item in list1 if item in list2]
+unique_list1 = [item for item in list1 if item not in list2]
+unique_list2 = [item for item in list2 if item not in list1]
+
+print(intersection)
+print(unique_list1)
+print(unique_list2)
